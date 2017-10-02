@@ -5,7 +5,7 @@
   
   <link href="/feed.xml" rel="self" type="application/atom+xml" />
   <link href="/" rel="alternate" type="text/html" />
-  <updated>2017-10-01T11:02:24-04:00</updated>
+  <updated>2017-10-02T12:09:08-04:00</updated>
   <id>//</id>
 
   
@@ -23,18 +23,19 @@
   
     <entry>
       
-      <title type="html">Welcome to Jekyll!</title>
+      <title type="html">I finally got Jekyll working</title>
       
-      <link href="/2017/10/01/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" />
+      <link href="/2017/10/01/welcome-to-jekyll/" rel="alternate" type="text/html" title="I finally got Jekyll working" />
       <published>2017-10-01T00:42:55-04:00</published>
       <updated>2017-10-01T00:42:55-04:00</updated>
       <id>/2017/10/01/welcome-to-jekyll</id>
-      <content type="html" xml:base="/2017/10/01/welcome-to-jekyll/">&lt;p&gt;My name is Christopher Thomas, and I’m a Junior studying CS at &lt;a href=&quot;https://www.columbia.edu&quot;&gt;Columbia University&lt;/a&gt;. Once upon a time I graduated from &lt;a href=&quot;https://www.bc.edu&quot;&gt;Boston College&lt;/a&gt; with a degree in Political Science &amp;amp; Political Philosophy. I’m an avid reader of thick british novels, avid listener of baroque classical music, and am marinated in nerdiness. &lt;br /&gt;&lt;/p&gt;
+      <content type="html" xml:base="/2017/10/01/welcome-to-jekyll/">&lt;p&gt;After what appeared to be a herculean struggle with the forces of the ruby/jekyll/gem ecosystem, I’ve managed to get my Jekyll Site running. It’s still very much a work in progress, but I intend to update it in the coming months. I’ll be posting about my experiences with Jekyll soon.&lt;/p&gt;
 
-&lt;h2 id=&quot;contact&quot;&gt;Contact&lt;/h2&gt;
+&lt;p&gt;My hopes are that this blog ends up becoming a kind of a) CV/Resume b) soapbox to opine about CS education (I’m an undergraduate at Columbia) c) talk about the myriad other things that stimulate my interest, especially Political Philosophy and Stoicism, and d) a place to put notes on my CS coursework.&lt;/p&gt;
 
-&lt;p&gt;Email: &lt;a href=&quot;mailto:cpt2132@columbia.edu&quot;&gt;cpt2132@columbia.edu&lt;/a&gt; &lt;br /&gt;
-Github: &lt;a href=&quot;https://github.com/Lord-Left&quot;&gt;Lord-Left&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;Looking forward to many more updates :)&lt;/p&gt;
+
+&lt;p&gt;-CPT&lt;/p&gt;</content>
 
       
       
@@ -53,7 +54,7 @@ Github: &lt;a href=&quot;https://github.com/Lord-Left&quot;&gt;Lord-Left&lt;/a&g
       
 
       
-        <summary type="html">My name is Christopher Thomas, and I’m a Junior studying CS at Columbia University. Once upon a time I graduated from Boston College with a degree in Political Science &amp;amp; Political Philosophy. I’m an avid reader of thick british novels, avid listener of baroque classical music, and am marinated in nerdiness.</summary>
+        <summary type="html">After what appeared to be a herculean struggle with the forces of the ruby/jekyll/gem ecosystem, I’ve managed to get my Jekyll Site running. It’s still very much a work in progress, but I intend to update it in the coming months. I’ll be posting about my experiences with Jekyll soon.</summary>
       
 
       
