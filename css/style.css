@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Lusitana');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+/* 
+body {
+    background-color: lightcoral;
+} */
+
+.lusFont {
+    font-family: 'Lusitana', serif;
+}
+
+.inconsolataFont {
+    font-family: 'Inconsolata', san-serif;
+}
+
+.titleProperties {
+    font-size: 34px;
+    margin-top: 5%;
+    font-weight: bold;
+}
+.nameProperties {
+    font-size: 30px;
+    margin-top: 3%;
+    font-weight: bold;
+}
+.dateTitle {
+    font-size: 24px;
+    margin-top: 14%;
+    margin-left: 45%;
+}
+
+.lightPad {
+    padding: 1%;
+}
+.lightMarg {
+    margin: 3%;
+}
+.zeroLeftPad {
+    padding-left: 0%;
+}
+
+.blogWidth {
+    width: 60vw;
+}
+.titleWidth{
+    width: 63vw;
+}
+.blogFontSize {
+    font-size: 16px;
+}
+.blackDottedBorder {
+    border: dotted;
+}
+.borderBottom {
+    border-bottom: 2px solid lightslategray;
+}
+.selfPic {
+    max-width: 80%;
+    border-radius: 50%;
+}
+
