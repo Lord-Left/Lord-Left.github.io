@@ -1,0 +1,90 @@
+<!-- Hiya! This site is very much a work in progress - I'm still learning how to master stuff like
+flex, the css grid and other aspects of front-end. Email me at cpt2132@columbia.edu if you want
+to yell at me for any reason. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Test Title</title>
+    <meta charset="utf-8">
+
+    <!-- CDN imports -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light inconsolataFont">
+                <a class="navbar-brand" href="/index.html">Christopher Thomas</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="/index.html">Blog<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="/about.html">About Me</a>
+                    </li>
+                  </ul>
+                  <span class="navbar-text">
+                    Musings on tech, philosophy and demanding Indian Mothers
+                  </span>
+                </div>
+              </nav>
+
+        <div class="container lusFont">
+
+            <!-- title of post -->
+            <div class="row mx-auto blogWidth titleProperties">
+                    <p>Pain Points in pivoting from the humanities to CS // June 2019</p>
+            </div>
+
+            <!-- actual post -->
+            <div class="row ">
+
+
+
+              <div class="mx-auto blogWidth blogFontSize">
+                <p>It takes a special kind of recklessness to pursue a second bachelor’s degree in a completely different field in your mid-twenties. Apparently my kind of reckless, because I did exactly that. I graduated from Boston College in 2011 with a degree in Political Science and began a second BA from Columbia several years later.</p>
+                <p>More and more people are making the sort of transition I made when I began my studies in CS in 2016. In the interest of making things easier for those who are embarking on a similar shift from the humanities to CS, I want to discuss two pain points I experienced when I started my CS journey.</p>
+                <p><strong>1. Highly-bounded concepts</strong></p>
+                <p>If you come from the humanities, chances are that you are pretty good at connecting ideas. A concept will remind you of another concept, and your mental model of a domain like political science or literature will soon become a veritable lattice-work. Connecting ideas is important in CS and Mathematics as well, and in fact is pivotal in making progress in research in these areas, but the impulse of many humanities-oriented students to read more into an idea can be perilous when initially pivoting into CS.</p>
+                <p>In CS and mathematics ideas are expressed with a high degree of precision. Often times a term means exactly what it means in the provided definition, and very little more. To add to the confusion, many terms in CS/Math are used colloquially but have a very different meaning in their academic contexts.</p>
+                <p>To illustrate, let’s look at an idea from classical logic (technically a subset of philosophy as well as mathematics): implication. If you see the phrase ‘a implies b’, you may bring your colloquial understanding of ‘implies’ to bear and assume that there is a causal relationship being established between a and b. In the context of classical logic, you would be wrong. The word implies does not have the meaning it does in common parlance. - it’s a statement about the relationship between two logical expressions, and says very little about whether one statement ‘caused’ another statement in the real world.</p>
+                <p>When starting off in CS, it is important that you understand terms and concepts as they are defined, and refrain from making assumptions about what those terms mean based on your prior knowledge. Once you have a firm foundation in what certain concepts mean, you can begin to connect dots between related ideas with greater precision.</p>
+                <p><strong>2. The Curse of the Curve</strong></p>
+                <p>This Pain Point is more relevant to those pursuing a degree program in CS.</p>
+                <p>In my experience, humanities majors at selective schools expect grades in the A-range with a high degree of regularity. Getting a grade below that amount tends to mean you had an unusually difficult professor or semester. Despite the highly subjective nature of humanities courses, grading can feel reassuringly straightforward.</p>
+                <p>While this greatly depends on grade inflation at your particular institution, in general grading in CS and STEM is less straightforward. You might get back a 45/100 in your systems programming class, faint, and upon coming-to discover that you had one of the highest grades in your class! Grading in CS classes is often done on a curve, which means your grade is less a raw score and more a function of how you did relative to your peers.</p>
+                <p>Many times grading is a black box, even if the professor details their grading policy to the class in syllabus. You can compute your grade according to the syllabus, discover you deserve a B, and get back a B+ – all because your Professor noticed you came to office hours and respected the work you put in.</p>
+                <p>To invoke an extreme example, I know of a classmate of mine who missed both the midterm and final of his higher level mathematics course, but evinced such an obvious mastery of the material in office hours that he got an A.</p>
+                <p>This kind of (often merciful, often capricious) discretion on the part of professors might become less common as departments move towards more standardized grading policies, but the take away is that your final grade is often not just a function of your exams, projects and so on, but can also be informed by your relationship with your professor and the visible effort you put towards a course.</p>
+                <p><strong>Conclusions</strong></p>
+                <p>I hope this article was useful to anyone mulling or undergoing a transitioning from the humanities to CS. In the end I believe that folks with a diverse academic or experimental background bring a lot to the table, despite the hurdles involved in learning very different skills.</p>
+                <div class="borderBottom lightMarg">
+                  </div>
+              </div>
+              
+
+            </div>
+
+            <!-- end of post -->
+
+            
+      
+            <!-- put new posts above this div -->
+        </div>
+
+      
+
+</body>
+
