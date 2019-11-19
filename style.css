@@ -151,8 +151,8 @@
             font-weight: bold;
         }
         .selfPic {
-            max-width: 75%;
-            border-radius: 100%;
+            max-width: 70%;
+            border-radius: 10%;
         }
         .topPad {
             padding-top: 30px;
