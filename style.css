@@ -95,7 +95,7 @@
             justify-content: center;
         }
         .vertical-center {
-          min-height: 100vh; /* These two lines are counted as one :-)       */
+          min-height: 70vh; /* These two lines are counted as one :-)       */
           min-width: 10vh;
 
           display: flex;
@@ -110,7 +110,7 @@
         }
         .scaleDown {
             height: 100%;
-            width: 120%;
+            width: 100%;
         }
         .centerContent {
             justify-content: center;
@@ -140,6 +140,9 @@
         .coralColor {
             color: crimson;
         }
+        .boldQuality {
+            font-weight: bold;
+        }
         .nameProperties {
             font-size: 30px;
             margin-top: 3%;
@@ -152,7 +155,11 @@
         }
         .selfPic {
             max-width: 70%;
-            border-radius: 10%;
+            border-radius: 10px;
+            border: 1px solid #c3c3c3;
+        }
+        .shadowBox {
+            box-shadow: 0 2px 3px 0 rgba(0,0,0,.31);
         }
         .topPad {
             padding-top: 30px;
