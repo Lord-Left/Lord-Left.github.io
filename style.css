@@ -170,6 +170,12 @@
         .titleColor {
             color: cornflowerblue
         }
+        .topBorder {
+            border-top: 1px solid #000
+        }
+        .footerPad {
+            padding-top: 10px
+        }
         body {
             background-color: rgb(173, 255, 222) !important
         }
